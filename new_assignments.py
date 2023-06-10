@@ -24,3 +24,8 @@ for item in insert_list:
   dummy1=str_insert+str(item)
   dummy.append(dummy1)
 print(dummy)
+
+# Q 6 Write a python programme to check a list is empty or not
+empty_list=[]
+empty_list==[]
+
