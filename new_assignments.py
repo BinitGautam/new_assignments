@@ -29,3 +29,12 @@ print(dummy)
 empty_list=[]
 empty_list==[]
 
+# Q 1 
+sample_list=['mango','banana','kiwi','apple','grapes']
+large=("")
+for char in sample_list:
+  if len(char)>len(large):
+    large=str(char)
+     
+print(large)
+print(len(large))
