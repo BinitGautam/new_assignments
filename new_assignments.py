@@ -4,6 +4,8 @@ large=("")
 for char in sample_list:
   if len(char)>len(large):
     large=str(char)
+print(large)
+print(len(large))
 
 # Q 2 write a programme to sum all the items
 sum_list=[1,2,3,4,5]
@@ -35,11 +37,7 @@ print(count)
 # Q 6 Write a python programme to check a list is empty or not
 empty_list=[]
 empty_list==[]
-
-
-     
-print(large)
-print(len(large))
+   
 
 # Q 7 write a python program to insert a given  string at the begining of all the items in a list
 insert_list=[1,2,3,4]
