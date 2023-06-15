@@ -48,3 +48,26 @@ for item in insert_list:
   dummy1=str_insert+str(item)
   dummy.append(dummy1)
 print(dummy)
+
+# Write a program that takes a string as input and counts the number of vowels(a,e,i,o,u) using for loop
+i=0
+for char in str:
+
+  if char=='a' or char=='e' or char=='i' or char=='o' or char=='u':
+    i=i+1
+print(i)
+
+# Write a program that takes a string as input and counts the number of vowels(a,e,i,o,u) using for loop
+str=('the quick brown fox jumps over the table')
+i=0
+for char in str:
+
+  if char=='a' or char=='e' or char=='i' or char=='o' or char=='u':
+    i=i+1
+print(i)
+
+#Write a program that generates all possible combinations of three numbers from 1 to 5 using nested for loops and print the
+for i in range(1,6):
+  for i2 in range(1,6):
+    for i3 in range(1,6):
+      print(i,i2,i3)
